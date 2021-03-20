@@ -1,0 +1,285 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer  */
+.footerModify {
+    font-family: 'Montserrat';
+      padding:20px 0px;
+    }
+    .footerTitle {
+      font-family: 'Montserrat';
+      font-size: 19px;
+      text-transform: uppercase;
+      margin-bottom: 17px;
+      font-weight: 500;
+    }
+    .footerLink {
+      font-family: 'Montserrat';
+      display: block;
+      margin-bottom:10px;
+      color:#94959a;
+      text-decoration: none;
+      transition: font-size 1s;
+    }
+    .footerIcon {
+      margin-right: 5px;
+    }
+    .widget_anpstext:before {
+      border-right: 2px solid currentColor;
+      bottom: 1px;
+      content: "";
+      left: 0;
+      opacity: .2;
+      position: absolute;
+      top: 1px;
+      width: 25px;
+    }
+    .widget_anpstext {
+      font-family: 'Montserrat';
+      position: relative;
+      padding-left: 40px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+  
+    }
+    .mediaLink {
+      font-size: 28px;
+      margin: 5px;
+      color: white;
+    }
+    .footerLink:hover {
+      color: white;
+      border-radius: 8px;
+      font-size:15px;
+      /* background-color: #7d8075; */
+  
+      text-decoration: none;
+    }
+    
+    .mediaLink:hover {
+      border-radius: 20px;
+      color:#0efec2 !important ;
+  
+    }
+
+    .facebook:hover {
+        color:#0e46fe !important ;
+    }
+
+    .instagram:hover {
+        color:#fc2163 !important ;
+    }
+    
+    .styleFootLogo {
+      max-height: 140px;
+      max-width: 140px;
+     
+    }
+    .footer-distributed{
+      font-family: 'Montserrat';
+        background-color: rgb(0, 0, 0);;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+      width: 100%;
+      margin-bottom: -25px;
+        
+        padding: 35px 40px;
+    }
+    /* timeline */
+    * {
+      box-sizing: border-box;
+    }
+    
+    
+    
+    .sponsor{
+        /*width: 400px;*/
+        /*height: 120px;*/
+        width: 50%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+    @media (max-width:450px) {
+      .sponsor{
+          width: 300px;
+      }
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* The actual content */
+    .content {
+      padding: 20px 30px;
+      background-color: #0F4C76;
+      position: relative;
+      opacity: 0.789;
+      border-radius: 6px;
+      color: white;
+      text-align: center;
+    }
+    
+   
+  /* MAP DIV */
+  
+  .mapsDiv{
+      width: 100%;
+      position: relative;
+      margin: 0rem auto;
+      height: fit-content;
+      padding: 2rem 0rem ;
+      background-image: linear-gradient(to bottom right, #ddebe4, #03cfbe );
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      /* margin-top: 5rem; */
+          /* border: 0.1rem solid red; */
+  
+  }
+  
+  .map_left , .map_right{
+      overflow: hidden;
+      /* border: 0.1rem solid red; */
+  }
+  
+  .branch {
+      background-color: black;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      display: inline-grid;
+      /* border: 1px solid red ; */
+    }
+    .text_coordinator{
+      /* border: 1px solid red ; */
+      margin: 10px 40px;
+      margin-left: 40px;
+  
+  
+    }
+    .text_header {
+      font-family: 'Montserrat', sans-serif ;   
+      font-weight: 700;
+      font-size: 4rem; 
+      margin-left: 40px;
+      margin-top: 40px;
+      color: rgb(3, 40, 49);
+    }
+  
+    .branchHead , .email_coordinator{
+      margin: 20px 0px ;
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif ;   
+      font-size: 20px;
+      font-weight: 600;
+      /* border: 1px solid rgb(72, 255, 0) ; */
+  
+    }
+  
+    .email_coordinator{
+      font-size: 18px;
+  
+    }
+  
+    .line{
+        border-left: 3px solid rgb(5, 49, 75);
+        margin: 0rem 1rem;
+    }
+    .branchInfo {
+     color: #8c8383;
+    
+    }
+    .branchNumber {
+      color: white;
+    }
+   
+  
+    .Gmap{
+      width: 98%;
+        height: 368px;
+        
+    }
+
+/* Home BTN */
+
+.homebtn{
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.8rem 1rem;
+    text-decoration: none;
+    margin: 30px 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif ;   
+      font-size: 20px;
+      font-weight: 600;
+    background-color: rgb(3, 21, 49);
+    border-radius: 10px;
+    text-transform: uppercase;
+
+    
+}
+
+.homebtn:hover{
+    color: white;
+    text-decoration: none;
+}
+
+       
+  /* RESPONSIVE MAP */
+
+    
+  @media(max-width : 990px){
+    .mapsDiv{
+      padding: 0rem;
+      padding-bottom: 20px;
+  
+  }
+  .map_left , .map_right{
+   margin: 0rem auto;
+   /* border: 3px solid #61d811; */
+
+  }
+  .map_right{
+   margin-top: 40px;
+  }
+  .Gmap{
+    display: block;
+    border: none;
+    padding: 0;
+    margin: 0%;
+    margin-left:  auto;
+    margin-right: auto;
+      
+  }
+  }
+  
+  @media(max-width : 650px){
+    .mapsDiv{
+      padding: 0;
+    }
+
+    .Gmap{
+        width: 100%;
+          
+      }
+  }
+
+      
+
+
+
+
